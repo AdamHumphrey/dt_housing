@@ -8,3 +8,13 @@
     min-width: 100%;
     z-index: 50;
 }
+#filter-box {
+    position: relative;
+    min-height: 45.5vw;
+    max-width: 80%;
+    margin-top: 7.5em;
+    z-index: 300;
+}
+.content-container {
+    height: 100%;
+}
