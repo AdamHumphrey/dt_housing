@@ -10,14 +10,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.4/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.4/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.5/angular-material.min.css">
 </head>
 <body>
     <!-- insert nav -->
     <md-content>
         <md-toolbar style="position: fixed; top: 0; min-width: 100%; z-index: 200;">
-                <h3><span>Housing Explorer</span></h3>
+                <h3 style="font-family: 'Roboto Mono'; margin-left: 1em;">UT Austin Housing Guide</h3>
         </md-toolbar>
+        <div class="container-fluid content-container">
+            <div class="col-md-4 col-xs-4">
+                <md-card id="filter-box">
+                    <h3>Hello World</h3>
+                </md-card>
+            </div>
+            <div class="col-md-8 col-xs-8 padding"></div>
+        </div>
     </md-content>
         <div class="map-container">
             <div id="map"></div>
@@ -28,7 +37,7 @@
                 var map = new mapboxgl.Map({
                     container: 'map',
                     center: [-90, 42],
-                    zoom: 13.21,
+                    zoom: 13.1,
                     style: 'mapbox://styles/scif/cim458kaf00fr9jkpn062pljc',
                     hash: true
                 });
