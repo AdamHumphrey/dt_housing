@@ -21,14 +21,29 @@ p.topInfo {
 }
 
 p.subtitle {
-	font-family: 'Roboto';
+	font-family: 'Roboto Slab';
 	font-size: 18px;
 	font-weight: 700;
 }
 
-div.divider {
-	width: 0px;
-	height: 400px;
-	margin-top: 40px;
-	border: 1px solid #747D7D;
+#quote {
+	font-family: 'Roboto Slab';
+	font-size: 52px;
+	color: #BF5700;
+}
+
+#quoteText {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+}
+
+#studentInfo {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 18px;
+	color: #BF5700;
+	margin-top: -10px;
+	text-align: right;
 }
