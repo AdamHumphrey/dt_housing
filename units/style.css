@@ -1,6 +1,12 @@
+p {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+}
+
 p.dormName {
 	font-family: 'Roboto Slab';
-	font-size: 48px;
+	font-size: 60px;
 	font-weight: 700;
 	margin-bottom: -10px;
 	color: #BF5700;
@@ -14,7 +20,7 @@ p.address {
 }
 
 p.topInfo {
-	font-family: 'Roboto'; 
+	font-family: 'Roboto Slab'; 
 	font-weight: 700; 
 	font-size: 14px; 
 	margin: 0px 0px 0px 0px;
@@ -26,9 +32,9 @@ p.subtitle {
 	font-weight: 700;
 }
 
-#quote {
+#cost {
 	font-family: 'Roboto Slab';
-	font-size: 52px;
+	font-weight: 300;
 	color: #BF5700;
 }
 
@@ -46,4 +52,19 @@ p.subtitle {
 	color: #BF5700;
 	margin-top: -10px;
 	text-align: right;
+}
+
+#list {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 14px;
+	color: #262626;
+	margin: 0px 0px 0px 0px;
+}
+
+a {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 14px;
+	margin: 0px 0px 0px 0px;
 }
