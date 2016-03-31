@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang='en' ng-app='HousingApp'>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='initial-scale=1, maximum-scale=1, user-scalable=no' />
+	<title ng-bind='pageTitle + ' | UT Housing Explorer''></title>
+	<link rel='stylesheet' href='style.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <!--Dorm details-->
+    <div class='row'>
+        <div class='row' style='text-align: center;'>
+            <p class='dormName'>JESTER EAST</p>
+            <p class='address'>201 East 21st Street</p>
+        </div>
+        <div class='row' style='text-align: center; margin-bottom: 20px;'>
+            <div class='col-md-3'></div>
+            <!--Dorm Specifications-->
+            <div class='col-md-3'>
+                <p class='subtitle'>Specs</p>
+                <p id='list'>Coed</p>
+                <p id='list'>1,148 Person capacity</p>
+                <p id='list'>10 Floors</p>
+                <p id='list'>Built in 1969, Renovated in ____</p>
+                <p id='list'>Private or connecting bathrooms</p>
+                <p id='list'>Accessible accomodations available</p><br/>
+                <p id='list'><b>In dorm dining:</b> <a href='http://hf-food.austin.utexas.edu/foodpro/nutframe2.asp?sName=University+of+Texas+-+Division+of+Housing+%26+Food+Service&locationNum=12&locationName=Jester+2nd+Floor+Dining&naFlag=1' target='_blank'>J2</a>, <a href='http://hf-food.austin.utexas.edu/foodpro/nutframe2.asp?sName=University+of+Texas+-+Division+of+Housing+%26+Food+Service&locationNum=01&locationName=Jester+City+Limits&naFlag=1' target='_blank'>Jester City Limits</a>, Wendy's, Jester Pizza, Jester Java</p>
+            </div>
+            <!--Ammenities-->
+            <div class='col-md-3'>
+                <p class='subtitle'>Ammenities</p>
+                <p id='list'>Movable furniture</p>
+                <p id='list'>Computer lab</p>
+                <p id='list'>Study rooms</p>
+                <p id='list'>Grand piano</p>
+                <p id='list'>Jester City Limits convenience store</p>
+            </div>
+            <div class='col-md-3'></div>
+        </div>
+        <div class='row' style='text-align: center; margin-bottom: 20px;'>
+            <div class='col-md-3'></div>
+            <!--Cost Breakdown-->
+            <div class='col-md-3'>
+                <p class='subtitle'>Cost Breakdown</p>
+                <p id='list'>Shared space with community bath: <span id='cost'>$XX,XXX</span></p>
+            </div>
+            <!--Proximity to buildings-->
+            <div class='col-md-3'>
+                <p class='subtitle'>Proximity</p>
+                <a href='http://www.utrecsports.org/facilities/facility/gregory-gym' target='_blank'>Gregory Gymnasium</a></br>
+                <a href='https://www.lib.utexas.edu/pcl' target='_blank'>Perry-Castaneda Library</a></br>
+                <a href='https://www.mccombs.utexas.edu/' target='_blank'>McCombs School of Business</a></br>
+                <a href='http://www.blantonmuseum.org/' target='_blank'>Blanton Museum of Art</a>
+            </div>
+            <div class='col-md-3'></div>
+        </div>
+    </div>
+
+    <!--Photo slideshow-->
+    <div class='row'>
+        <div class='col-md-12' style='text-align: center; margin: 20px 0px 20px 0px; border-top: solid 1px #FFFFFF;'>
+            <div style='margin:auto;width:500px;height:400px;border:1px solid #000;'>This is the photo slideshow!</div>
+        </div>
+    </div> 
+
+    <!-- Student quotes -->
+    <div class='row' style='margin-top: 20px;'>
+        <div class='col-md-3'></div>
+        <div class='col-md-6'>
+            <p id='quoteText'>This is a student quote, the style needs to be workshopped. Also it's a little longer to see how it looks with a probably multi line quote in the actual page. Please look good please please please.</p>
+            <p id='studentInfo'>John Doe, Journalism Senior</p>
+        </div>
+        <div class='col-md-3'></div>
+    </div>
+</body>

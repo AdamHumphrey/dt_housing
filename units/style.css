@@ -1,0 +1,70 @@
+p {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+}
+
+p.dormName {
+	font-family: 'Roboto Slab';
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: -10px;
+	color: #BF5700;
+}
+
+p.address {
+	font-family: 'Roboto Slab'; 
+	font-size: 18px; 
+	font-weight: 300;
+	margin: 0px 0px 20px 0px;
+}
+
+p.topInfo {
+	font-family: 'Roboto Slab'; 
+	font-weight: 700; 
+	font-size: 14px; 
+	margin: 0px 0px 0px 0px;
+}
+
+p.subtitle {
+	font-family: 'Roboto Slab';
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#cost {
+	font-family: 'Roboto Slab';
+	font-weight: 300;
+	color: #BF5700;
+}
+
+#quoteText {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+}
+
+#studentInfo {
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 18px;
+	color: #BF5700;
+	margin-top: -10px;
+	text-align: right;
+}
+
+#list {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 14px;
+	color: #262626;
+	margin: 0px 0px 0px 0px;
+}
+
+a {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 14px;
+	margin: 0px 0px 0px 0px;
+}
